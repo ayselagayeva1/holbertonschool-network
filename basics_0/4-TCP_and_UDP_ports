@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #dsjvfkdvnsjdcvnmskcm
-sudo ss -tulnp
+sudo netstat -tunlp
+
