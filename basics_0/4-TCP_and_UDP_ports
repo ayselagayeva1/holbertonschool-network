@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#dsjvfkdvnsjdcvnmskcm
-sudo netstat -tunlp
+# Displays listening ports with PID and program name
 
+sudo lsof -i -P -n | grep LISTEN
