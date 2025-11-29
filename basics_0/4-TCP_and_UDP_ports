@@ -3,8 +3,8 @@
 
 # Active Internet connections (TCP/UDP)
 echo "Active Internet connections (only servers)"
-sudo netstat -tulpn
+sudo netstat -tulpn | tail -n +3  # başlığı çıxarmaq üçün ilk iki sətri atırıq
 
 # Active UNIX domain sockets
 echo "Active UNIX domain sockets (only servers)"
-sudo netstat -lxpn
+sudo netstat -lxpn | tail -n +3
